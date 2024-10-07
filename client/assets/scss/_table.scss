@@ -1,0 +1,15 @@
+table {
+  &.table-fixed {
+    th {
+      button {
+        @apply w-full;
+      }
+
+      &[aria-sort="none"] {
+        .iconify {
+          @apply hidden;
+        }
+      }
+    }
+  }
+}

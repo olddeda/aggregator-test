@@ -1,0 +1,24 @@
+[aria-haspopup="listbox"] {
+  button {
+    .i-heroicons-chevron-down-20-solid {
+      @apply transition-transform
+    }
+  }
+}
+
+[data-headlessui-state='open'] {
+  button {
+    .i-heroicons-chevron-down-20-solid {
+      @apply transform -rotate-180;
+    }
+  }
+}
+
+
+[data-popper-placement] {
+  @apply min-w-fit;
+
+  > div {
+    @apply min-w-fit;
+  }
+}
