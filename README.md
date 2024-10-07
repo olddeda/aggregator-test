@@ -140,5 +140,5 @@ https://t.me/+tLb36kEIYBpjOGZi
 Для удобства настроен docker с помощью Laravel Sail и так же написан скрипт для его использования
 
 ```bash
-sn docker.sh
+sh docker.sh
 ```
